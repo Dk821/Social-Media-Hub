@@ -1,0 +1,23 @@
+.App {
+  min-height: 100vh;
+  background-color: #F5F7FB;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.App-link img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.App-link img:hover {
+  transform: scale(1.05);
+}

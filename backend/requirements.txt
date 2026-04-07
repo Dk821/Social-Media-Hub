@@ -1,0 +1,21 @@
+# ── Core Framework ──
+fastapi==0.110.1
+uvicorn==0.25.0
+starlette==0.37.2
+pydantic==2.12.5
+python-dotenv==1.2.1
+python-multipart==0.0.22
+
+# ── Firebase / Google Cloud ──
+firebase-admin==6.6.0
+google-cloud-firestore
+
+# ── AI Providers ──
+google-generativeai==0.8.6
+openai==1.99.9
+
+# ── Content Extraction ──
+requests==2.32.5
+beautifulsoup4==4.14.3
+lxml==6.0.2
+youtube-transcript-api==1.2.4
